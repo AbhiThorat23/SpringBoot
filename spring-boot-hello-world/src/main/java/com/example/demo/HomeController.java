@@ -8,6 +8,7 @@ public class HomeController {
 
 	@RequestMapping("/")
 	public String helloWorld(){
+		System.out.println("inside hello world");
 		return "hello world!!";
 	}
 }
